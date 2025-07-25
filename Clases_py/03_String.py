@@ -29,4 +29,27 @@ print("Mi nombre es %s %s y mi edad es %d anos" %(name , surname , age))
 ## Formateo profesional ##
 print(f"Mi nombre es {name} {surname} y tengo {age} anos")
 
- 
+## Desempaquetado de caracteres ##
+language = "python"
+a , b , c , d , e , f = language
+print (a)
+print (e)
+
+## Division 
+language_slice = language [-1]
+print(language_slice)
+
+language_slice = language [0:3:4]
+print(language_slice)
+#Reves 
+reversed_language = language[ ::-1]
+print(reversed_language)
+
+# Funciones del sistema.
+print(language.capitalize())
+print(language.upper())
+print(language.count("o"))
+print(language.lower().isupper())
+print(language.upper().isupper())
+print(language.startswith("py"))
+print( "Py" == "Py")
